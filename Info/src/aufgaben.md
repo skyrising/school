@@ -1,26 +1,26 @@
 #1 Warteschlangen#
 
-##Implementierung##	
-siehe:  
+##Implementierung##
+siehe:
 * de.skyrising.info.taxis.school.Taxi
 * de.skyrising.info.taxis.school.Taxiwarteschlange
 
 ##Aufgaben#
 
 ###Aufgabe 1###
-siehe:  
+siehe:
 * de.skyrising.info.taxis.school.Testablauf
 
 ###Aufgabe 2###
 Wer macht sowas?
 
 ###Aufgabe 3###
-a. ja	FIFO
-b. nein	StVO
-c. nein	LIFO
+a) ja	FIFO  
+b) nein	StVO  
+c) nein	LIFO  
 
 ###Aufgabe 4###
-siehe:  
+siehe:
 * de.skyrising.info.warteschlangen.school.Auto
 * de.skyrising.info.warteschlangen.school.Autowarteschlange
 * de.skyrising.info.warteschlangen.school.Polizeikontrolle
