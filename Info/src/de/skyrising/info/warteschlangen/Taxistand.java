@@ -1,4 +1,4 @@
-package de.skyrising.info.taxis;
+package de.skyrising.info.warteschlangen;
 
 import java.util.Arrays;
 import java.util.Collection;

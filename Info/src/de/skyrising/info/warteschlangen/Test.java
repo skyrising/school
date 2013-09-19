@@ -1,4 +1,4 @@
-package de.skyrising.info.taxis;
+package de.skyrising.info.warteschlangen;
 
 import java.io.IOException;
 import java.util.Random;

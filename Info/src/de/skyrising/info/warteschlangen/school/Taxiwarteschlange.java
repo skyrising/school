@@ -1,6 +1,7 @@
 
-package de.skyrising.info.taxis.school;
+package de.skyrising.info.warteschlangen.school;
 
+//page 10 fig. 1
 public class Taxiwarteschlange 
 {
     private int anzahlTaxis;
@@ -12,6 +13,7 @@ public class Taxiwarteschlange
         anzahlTaxis = 0;
     }
     
+    //page 11 fig. 1
     public void hintenAnstellen(Taxi t)
     {
         if(anzahlTaxis == taxistand.length)
@@ -22,20 +24,24 @@ public class Taxiwarteschlange
         }
         taxistand[anzahlTaxis++] = t;
     }
-    
+
+    //page 11 fig. 2
     public Taxi vorneAbfahren()
     {
+	//4 lines < 15 lines
         if(anzahlTaxis == 0)return null;
         Taxi ret = taxistand[0];
         System.arraycopy(taxistand, 1, taxistand, 0, --anzahlTaxis);
         return ret;
     }
-    
+
+    //page 11 blue box 1
     public int anzahlGeben()
     {
         return anzahlTaxis;
     }
-    
+
+    //page 11 fig. 3
     public void fahrerlisteAusgeben()
     {
         StringBuilder b = new StringBuilder();
@@ -47,7 +53,8 @@ public class Taxiwarteschlange
         }
         System.out.println(b);
     }
-    
+
+    //page 11 blue box 1
     public boolean istLeer()
     {
         return anzahlTaxis <= 0;

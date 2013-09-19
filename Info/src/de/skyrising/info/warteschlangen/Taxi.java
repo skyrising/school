@@ -1,4 +1,4 @@
-package de.skyrising.info.taxis;
+package de.skyrising.info.warteschlangen;
 
 public class Taxi
 {

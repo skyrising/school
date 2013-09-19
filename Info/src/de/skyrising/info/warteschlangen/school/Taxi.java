@@ -1,5 +1,6 @@
-package de.skyrising.info.taxis.school;
+package de.skyrising.info.warteschlangen.school;
 
+//page 11 blue box 2
 public class Taxi
 {
     private String kennzeichen;
