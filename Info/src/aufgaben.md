@@ -2,14 +2,14 @@
 
 ##Implementierung##
 siehe:
-* de.skyrising.info.taxis.school.Taxi
-* de.skyrising.info.taxis.school.Taxiwarteschlange
+* de.skyrising.info.warteschlangen.school.Taxi
+* de.skyrising.info.warteschlangen.school.Taxiwarteschlange
 
 ##Aufgaben#
 
 ###Aufgabe 1###
 siehe:
-* de.skyrising.info.taxis.school.Testablauf
+* de.skyrising.info.warteschlangen.school.Testablauf
 
 ###Aufgabe 2###
 Wer macht sowas?
