@@ -48,7 +48,6 @@ public class MandelbrotGenerator implements Runnable // extends Applet
 	a.finished = 0;
 	a.inverted = false;// false;
 	a.axis = true;// false;
-	// Jojo ist gfeil;
 	a.xOffset = -0.5;
 	a.yOffset = 0;
 	GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment()
