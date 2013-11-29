@@ -11,11 +11,11 @@ import java.util.Random;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
-public class MandelbrotGenerator implements Runnable // extends Applet
+public class MandelbrotGenerator implements Runnable
 {
     double xOffset, yOffset, zoom;
     int width, height, finished;
-    boolean inverted = false, axis = false, show = false;
+    boolean inverted = false, axis = false, show = true;
     public static final String help = "MandelbrotSetGenerator 1.0:\n"
 	    + "Usage: program-name <options>\n"
 	    + "Options:\n\t"
