@@ -12,6 +12,11 @@ public class Mandelbrot extends JPanel
     /** Appease the serialization gods*/
     private static final long serialVersionUID = 1L;
     
+    /**
+     * @param x0 the real part of the complex number
+     * @param y0 the imaginary part of the complex number
+     * @return the number of iteration the point didn't escape (point is in set if <code>iterations >= {@link Mandelbrot#maxIter}</code>
+     */
     public int istMandelbrot(double x0, double y0)
     {
 	double q = (x0 - 0.25) * (x0 - 0.25) + y0 * y0;
