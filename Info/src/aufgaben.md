@@ -30,5 +30,6 @@ siehe:
 ###Aufgabe 7###
 ###Aufgabe 8###
 
-#Exkursion Mandelbrotmenge: Ein einfaches Rezept#
+#Exkursion#
+##Mandelbrotmenge: Ein einfaches Rezept#
 * [de.skyrising.fractals.mandelbrot.Mandelbrot](https://github.com/skyrising/school/blob/master/Info/src/de/skyrising/fractals/mandelbrot/Mandelbrot.java)
