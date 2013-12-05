@@ -1,14 +1,13 @@
 package de.skyrising.fractals.mandelbrot;
 
-import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.*;
 
 import javax.swing.*;
 
 public class Mandelbrot extends JPanel
 {
+    /** maximum number of iterations until keeping a point */
     private int maxIter = 1000;
-    private double abstand = 4;
     /** Appease the serialization gods*/
     private static final long serialVersionUID = 1L;
     
